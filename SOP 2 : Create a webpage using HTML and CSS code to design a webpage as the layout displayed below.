@@ -1,0 +1,47 @@
+The top section will display the heading , ‘Tourist places’ in header. The
+section on the left has list of cities. The right hand side display tourist places
+in any one of the city .
+
+ Use Inline style sheet in the top section to display background color for the
+text ‘Tourist places’. Use internal stylesheet for the left and right section
+with background color and font styles.
+
+
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+Tourist Places
+</title>
+<style>
+section{background-color:pink;height:50%;width:50%;float:right}
+aside{background-color:yellow;float:left;width:50%}
+ol{font-style:italic;font-size:25pt}
+ul{font-weight:bold;font-size:30pt}
+</style>
+</head>
+<body>
+<header style="background-color:skyblue;height:100pt">
+<h1 align="center"> Tourist Places </h1>
+</header>
+<br>
+<aside>
+<h3> City </h3>
+<ol>
+<li>Pune</li>
+<li>Banglore</li>
+<li>Hyderabad</li>
+<li>Delhi</li>
+</ol>
+</aside>
+<section>
+<h3>Tourist Places In Pune</h3>
+<ul>
+<li>Shanivarwada</li>
+<li>Kelkar Museum</li>
+<li>Sinhgad Fort</li>
+</ul>
+</section>
+</body>
+</html>
