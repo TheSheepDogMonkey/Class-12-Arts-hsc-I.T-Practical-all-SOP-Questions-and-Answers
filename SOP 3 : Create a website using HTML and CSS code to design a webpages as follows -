@@ -1,0 +1,64 @@
+The first webpage will accept the name of the traveller, date of travel,
+telephone number. It also has a submit button as an image .
+
+CODE OF PAGE 1:
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+Form
+</title>
+</head>
+<body>
+<h1 align="center"> FORM </h1>
+<form>
+Name:
+<input type="text" name="a1"><br><br>
+Date of Travel:
+<input type="date" name="a2"><br><br>
+Number:
+<input type="number" name="a3"><br><br>
+<input type="image" src="C:\Users\dixit\Downloads\submit_button.png" alt="submit button"><br>
+<a href="C:\Users\dixit\OneDrive\Desktop\Form_Page_2.html">Second Page</a>
+</form>
+</body>
+</html>
+
+
+
+The second webpage has information about the name of transporter, time,
+seat no and destination displayed one below the other in the form of unordered
+list as
+Name of transporter – Air Asia
+Time - 09:30 am
+Seat no – B39
+Destination - Delhi
+Both pages should be interlinked. Create external stylesheet with relevant
+tags.
+
+CODE OF PAGE 2:
+
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+Information About The Transporter
+</title>
+<style>
+h1{background-color:lightgrey;border-style:double}
+body{background-color:skyblue}
+ul{font-style:italic;font-size:20pt}
+</style>
+</head>
+<h1 align="center"> Information About The Tranaporter </h1>
+<ul>
+<li>Name of transporter – Air Asia</li>
+<li>Time - 09:30 am</li>
+<li>Seat no – B39</li>
+<li>Destination - Delhi</li><br>
+<a href="C:\Users\dixit\OneDrive\Desktop\Form_Page_1.html">First Page</a>
+</ul>
+</body>
+</html>
