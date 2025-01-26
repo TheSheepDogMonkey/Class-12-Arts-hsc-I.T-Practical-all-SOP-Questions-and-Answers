@@ -1,0 +1,95 @@
+Create a website using HTML5 and CSS using any 4 CSS properties. Write
+a code for 2 separate pages having different file name such first page as
+Index. html, second page as page2.html as form.html. Use any theme such
+as college profile or company profile etc. Every page must contain proper
+Meta information and design web page as follows
+
+1) The index page must contain a heading which is highest among other text
+on pages and must be at centre of the page. There must be a paragraph
+which introduces general information about the theme chosen, must have
+at least 3 physical style tags and one image with alternate text. This
+page must be connected to other two pages with proper navigational
+links.
+
+
+
+
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+Tata Group
+</title>
+<meta charset="utf-8">
+<meta name="Sky" content="Physical Tags"> 
+<style>
+h1{border-style:dotted}
+p{color:white;font-size:20pt}
+body{background-color:skyblue}
+b{text-decoration:overline}
+u{text-align:right}
+</style>
+</head>
+<body>
+<h1 align="center">Tata Sons Private Limited</h1>
+<p>
+Tata Sons Private Limited is the holding company and promoter of the Tata Group, one of India's largest and most respected conglomerates. 
+Founded in 1868 by Jamsetji Tata, the company has grown to encompass a wide range of industries, including steel, automotive, information
+technology, telecommunications, and hospitality. Tata Sons plays a key role in steering the overall strategic direction of the group and
+holds the majority of shares in the group’s flagship companies. Known for its commitment to ethical business practices, corporate social
+responsibility, and long-term sustainability, Tata Sons continues to be a major force in both the Indian and global markets.
+</p>
+<b>Governance Philosophy</b>
+<br><br>
+<i>Tata Code of Conduct</i>
+<br><br>
+<u>Tata Buisness Excellence Model (TBEM) </u>
+<br><br>
+<h3>Image of Tata Industries</he>
+<img src=  alt="Tata Industries">
+<br><br>
+<a href="C:\Users\dixit\OneDrive\Desktop\page2.html">Second Page</a>
+</body>
+</html>
+
+
+
+2) The 2nd page must contain the feedback or enrolment form related with
+theme chosen with feature of HTML5. The form must contain text element
+and email address of the company or person. Include the submit button. 
+
+
+CODE OF PAGE 2
+
+
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+Enrolment Form
+</title>
+<meta charset="utf-8">
+<meta name="Sky 1" content="Physical Tags">
+<style>
+h1{border-style:dashed}
+body{background-color:orange}
+</style>
+</head>
+<body>
+<h1 align="center"> Enrolment Form </h1>
+<form>
+Name
+<input type="text" name="a1"><br><br>
+Email id
+<input type="email" name="a2"><br><br>
+DOB
+<input type="date" name="a3"><br><br>
+Age
+<input type="number" name="a4"><br><br>
+Contact No.
+<input type="number" name="a5"><br><br>
+<input type="submit" name="submit" value="submit">
+<input type="reset" name="reset" value="reset"><br><br>
+<a href="C:\Users\dixit\OneDrive\Desktop\index.html">First Page</a>
