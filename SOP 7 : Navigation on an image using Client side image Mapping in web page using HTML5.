@@ -1,0 +1,59 @@
+Create a webpage named imagemap. html with an inserted image having
+jpeg, png or gif extension. Create 3 different shapes (like rectangle,
+circle and polygon) which do not overlap. Note the co-ordinates
+making use of Ms-Paint/GIMP/IrfanView/Pinta. Each shape should
+be mapped or navigatea with different URL that should
+navigate to a local webpage.
+
+
+CODE: ( remember you have to make 3 basic web pages with heading like this is page 1 and etc etc and save them (all 3 ) as page1.html and so on)
+
+PAGE 1 -
+<!DOCTYPEhtml>
+<html>
+<head>
+</head>
+<body>
+<h1 align="center"> THIS IS PAGE 1 !!</h1>
+</body>
+</html>
+
+PAGE 2-
+<!DOCTYPEhtml>
+<html>
+<head>
+</head>
+<body>
+<h1 align="center"> THIS IS PAGE 2 !!</h1>
+</body>
+</html>
+
+PAGE 3- 
+<!DOCTYPEhtml>
+<html>
+<head>
+</head>
+<body>
+<h1 align="center"> THIS IS PAGE 3 !!</h1>
+</body>
+</html>
+
+
+now the main code:
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+Client Side Image Mapping
+</title>
+</head>
+<body>
+<h1 align="center">Client Side Image Mapping</h1>
+<img src="C:\Users\dixit\Downloads\download.webp" width="600" usemap="#imagemap">
+<area shape="rect" coords="27,25,221,115" href="C:\Users\dixit\OneDrive\Desktop\sop_7_page1.html" alt="page1.html">
+<area shape="circ" coords="314,119,60" href="C:\Users\dixit\OneDrive\Desktop\sop_7_page2.html" alt="page2.html">
+<area shape="poly" coords="236,241,308,330,167,429,51,336,80,232" href="C:\Users\dixit\OneDrive\Desktop\sop_7_page3.html" alt="page3.html">
+</map>
+</body>
+</html>
