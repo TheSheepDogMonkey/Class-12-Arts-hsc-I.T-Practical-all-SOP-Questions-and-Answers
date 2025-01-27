@@ -1,0 +1,66 @@
+Create a webpage named audio.html to set an audio file in webpage with
+controls such that it uses HTML5 elements. The audio file must play as soon
+as the webpage loads in browser and it will start over again, every time
+when it is completed.
+
+
+CODE OF PAGE 1 :
+
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+SINGLE AUDIO WITH CONTROLS
+</title>
+</head>
+<body>
+<h1 align="center"> AUDIO WITH CONTROLS </h1>
+<audio controls autoplay loop="-1">
+<source src=" " type="audio/mpeg">
+<a href="C:\Users\dixit\OneDrive\Desktop\audio1.html">Continue to the next page</a>
+</audio>
+</body>
+</html>
+
+
+Create another webpage named audio1.html which provides multiple source
+file formats for the same audio file that plays a sound automatically with
+controls. The browser should display the message with appropriate attribute
+when audio file is not supported by browser. The code must incorporate the
+list of sound files formats (like wav, MP3 or ogg etc).
+
+
+CODE OF PAGE 2:
+
+
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>
+Multiple Audio Files With Controls
+</title>
+</head>
+<body>
+<h1 align="center"> Multiple Audio Files With Controls </h1>
+<h2> The text between the audio tags will not be displayed in browsers that do not support the audio element </h2>
+<h3> List of Sound Files Formats </h3>
+<ol>
+<li>mp3-audio/mpeg</li>
+<li>mp3-audio/ogg</li>
+<li>mp3-audio/wav</li>
+</ol>
+
+<audio controls autoplay>
+<source src="C:\Users\dixit\Downloads\mixkit-sweet-kitty-meow-93.wav" type="audio/wav">
+
+<source src="C:\Users\dixit\Downloads\sound-effect-cat-chattering-and-meowing-2829
+00.mp3" type="audio/mp3">
+
+<source src= type="audio/ogg">
+<a href="C:\Users\dixit\OneDrive\Desktop\audio.html"> Back to first page</a>
+<p>Your browser dose not support the audio element</p>
+</audio>
+</body>
+</html>
